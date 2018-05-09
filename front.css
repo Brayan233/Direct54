@@ -1,0 +1,90 @@
+body {width: 100%; margin: 0; font-family: Arial,sans-serif; font-size: 16px; background-color: #E5E8E8;}
+header{height: 95px;width: 100%;position:fixed;top:0; left:0;margin-bottom:1em;z-index:100;}
+#headertop{background-color: #F9381E;  height: 45px;  width: 100%;}
+.topdroit{float:right; height: 100%;margin-top:1%;  margin-right:1%}
+.topgauche{float:left; height: 100%; margin-top:8px;  margin-left:1% ;Font-Weight: Bold; font-size:20px;}
+.bas{background:#D5D8DC;width:100%;height:40px;position:fixed;top: 100%;margin:-40px auto 0 auto;font-size:12px;}
+.basdroit{float:right; height: 100%;margin-top:1%;  margin-right:1%}
+#contenair{ width: 100%; margin-top:60px; height: 520px;}
+.gauche{background-color: white; float:left;line-height: 140%;  height: 100%;padding-top : 1%;padding-left:1%; width: 21%; margin-left:1%;overflow:auto}
+.centre{background-color: #CCD1D1; margin: 0 auto;  height: 85%;  width: 50%;}
+.centrebas{background-color: #CCD1D1; margin: 0 auto;  height: 12%;  width: 50%; margin-top:1%}
+.cbr{  margin-top:1%;float:right;margin-right : 3%; margin-top : 14px}
+.droit{background-color: white; float:right;line-height: 140%; height: 100%;  width: 21%;padding-top : 1%;padding-left:1%; margin-right:1%;overflow:auto}
+.droitind{background-color: #F9381E; float:right;line-height: 140%; height: 100%;  width: 43%;padding-top : 1%;padding-left:1%; margin-right:1%;}
+.gaucheind{background-color: #CCD1D1; float:left;line-height: 140%;  height: 100%;padding-top : 0%;padding-left:1%; width: 54%; margin-left:1%; padding-right:1%;}
+.gauchecgu{background-color: #CCD1D1;overflow:scroll; float:left;line-height: 140%; padding-top : 1%;padding-left:1%; width: 97%;height: 100%; margin-left:1%;}
+.champs {  height: 30px;  width: 85%;  font-size: 1.2em; margin-top : 2% ;margin-left : 5%}
+.oran{background-color: #F9381E;   height: 5px;  width: 96%; margin-left:0%;}
+a:link {color: black; text-decoration:none;}
+a:visited {color: black;}
+a:hover {color: red;}
+a:active {color: black;}
+
+/*Custom style*/
+.help-block {
+    font-size: 13px !important;
+}
+
+.help-block a {
+    text-decoration: underline !important;
+    font-size: 13px !important;
+}
+
+ul#online-users-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#online-users-list li {
+    list-style-type: none;
+}
+
+.online-user-item.femme, .femme .chat-pseudo {
+    color: #e06666;
+}
+
+.online-user-item.homme, .homme .chat-pseudo  {
+    color: #0000ff;
+}
+
+#chat-messages {
+    padding: 15px;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.online-user-item.well {
+    padding: 10px !important;
+}
+
+#headertop a:hover {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.message-item {
+    margin-top: 5px;
+    font-size: 12px !important;
+}
+
+h3#chatroom-title {
+    padding-left: 15px;
+    padding-top: 20px !important;
+    font-size: 22px;
+    color: orange;
+}
+
+
+#home-register {
+    padding-top: 130px;
+}
+
+#register-check {
+    color: #ffffff !important;
+}
+
+.chatroom-list-item.active {
+    color: orange;
+}
+/*End Custom style*/
